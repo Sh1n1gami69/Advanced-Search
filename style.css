@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-image: url(speed-internet-technology-background.webp);
+    background-size: 2000px;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+#square {
+    background-image: url(gradient-dark-dynamic-lines-background_23-2148995950.avif);
+    background-size: cover;
+    backdrop-filter: blur(100px);
+    height: 300px;
+    width: 400px;
+    border-radius: 40px;
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: 200px;
+    box-shadow: 10px 10px 10px black;
+}
+.name {
+    position: relative;
+    bottom: 25px;
+    font-size: 50px;
+}
+.name::before {
+    content: "Advanced";
+    color: white;
+}
+.name::after {
+    content: 'Search';
+    color: red;
+}
+input {
+    border-radius: 20px;
+    width: 350px;
+    height: 30px;
+    border: 2px solid black;
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    top: 120px;
+    box-shadow: 3px 3px 3px black;
+    outline: none;
+    padding-left: 10px;
+    font-style: oblique;
+}
+input::placeholder {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Winky Sans;
+}
+button:hover {
+    transform: scale(1.2);
+    transition: all 0,5s ease;
+}
+#btn1 {
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 50px;
+    width: 80px;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(4, 68, 23);
+    color: white;
+    position: relative;
+    bottom: 40px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+    position: absolute;
+    left: 40px;
+    top: 200px;
+    background-color: rgb(2, 141, 44);}
+#btn2 {
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 50px;
+    width: 80px;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(4, 68, 23);
+    color: white;
+    position: relative;
+    bottom: 40px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+    position: absolute;
+    right: 40px;
+    top: 200px;
+    background-color: rgb(199, 8, 8);
+}
+#btn3 {
+    position: absolute;
+    top: 200px;
+    background-color: rgb(196, 78, 0);
+}
+.choose {
+    position: relative;
+    bottom: 13px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Bebas Neue;
+}
+#delete {
+    position: absolute;
+    right: 19px;
+    top: 122px;
+    width: 70px;
+    height: 32px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: rgba(255, 0, 0, 0.788);
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: roboto;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
